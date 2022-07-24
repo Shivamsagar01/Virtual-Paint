@@ -9,10 +9,16 @@ press 'S' to save your drawing
 
 
 If you are using your webcam of your laptop write 0 in place of 1 in the below code and update it on the original code
- cap = cv2.VideoCapture(1)        // line no. 37 in My Paint code
+
+
+ cap = cv2.VideoCapture(1)      
+ 
+ // line no. 37 in My Paint code
 
 Before running the code please install these libraries in your IDE
+
   openCV     4.6.0.66
-  mediapipe  0.8.10      (protobuf   3.19.4)
+  
+  mediapipe  0.8.10         (protobuf   3.19.4)
   
   
